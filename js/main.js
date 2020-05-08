@@ -51,6 +51,7 @@ function makeGrid(g) {
 		dot.classList.add("dot");
 		sketchPad.appendChild(dot);
 		dot.addEventListener("mouseover", fillDot);
+		dot.addEventListener("touchmove", fillDot);
 	}
 }
 
