@@ -1,0 +1,81 @@
+body {
+	background: rgb(189, 195, 199);
+	font-family: sans-serif;
+	color: rgb(0, 48, 90);
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Caveat', sans-serif;
+	font-size: 3em;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.45);
+	margin: 15px;
+}
+
+a {
+	color: blue;
+}
+
+#container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	background: rgb(255, 255, 255);
+	border-bottom: 7px solid rgb(0, 48, 90);
+}
+
+#grid-size {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#sketchPad {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	background: rgb(173, 213, 247);
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	cursor: crosshair;
+}
+
+.fa-pencil-alt {
+	font-size: 1em;
+}
+
+.current-grid-size {
+	margin-right: 10px;
+}
+
+.dotGrid {
+	border-right: solid darkgray 1px;
+	border-bottom: solid darkgray 1px;
+}
+
+.button {
+	display: inline-block;
+	background: rgb(0, 48, 90);
+	font-weight: bold;
+	font-size: 1em;
+	color: rgb(189, 195, 199);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	border-radius: 7px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 10px 5px;
+}
+
+.button:hover {
+	transform: scale(1.05);
+}
+
+#sketchPad, .button {
+	box-shadow: 1px 3px 10px -4px rgba(0, 0, 0, 0.4), -1px 3px 10px -4px rgba(0, 0, 0, 0.4);
+}
